@@ -1,1 +1,9 @@
 .DS_Store
+node_modules
+vendor
+mix-manifest.json
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/statamic-translation-manager.iml
+/.idea/vcs.xml

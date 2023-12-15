@@ -1,0 +1,19 @@
+{
+    "name": "impres/translations",
+    "autoload": {
+        "psr-4": {
+            "Impres\\Translations\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "IMPRES Translations addon",
+            "description": "Export content to translation files and import them back."
+        },
+        "laravel": {
+            "providers": [
+                "Impres\\Translations\\ServiceProvider"
+            ]
+        }
+    }
+}
